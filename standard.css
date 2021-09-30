@@ -49,3 +49,13 @@ h1 {
 body {
   background-color: #efece8;
 }
+@media screen and (max-width: 1000px) {
+  li {
+    float: none;
+    width: 100%;
+  }
+  ul {
+    line-height: 220%;
+    text-align: center;
+  }
+}

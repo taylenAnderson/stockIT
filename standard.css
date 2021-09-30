@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans Mono", "Inconsolata", "Courier New", monospace;
+  font
+}
+header {
+  background-color: #2525a7;
+  text-align: center;
+  padding: 2px;
+}
+ul{
+  list-style-type: none;
+}
+li {
+  float: left;
+  display: inline;
+}
+a {
+  padding: 7px;
+  color: #17191a;
+  text-decoration: none;
+
+}
+a:hover {
+  padding: 5px;
+  color: #ffffff;
+  background-color: #cf6219;
+  border-style: solid;
+  border-color: #17191a;
+  border-width: 2px;
+
+}
+nav {
+  background-color: #b4bdc7;
+  overflow: hidden;
+  padding: 8px;
+}
+h1 {
+  color: #efece8;
+}
+body {
+  background-color: #efece8;
+}

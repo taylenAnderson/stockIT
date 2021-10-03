@@ -9,7 +9,7 @@
 }
 .dropbutton {
   display: none;
-  background-color: #c8c8cc;
+  background-color: #BBBBBF;
   color: #19191A;
   padding: 16px;
   font-size: 16px;
@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 .dropbutton:hover {
-  color: #c8c8cc;
+  color: #BBBBBF;
 }
 header {
   position: relative;
@@ -38,32 +38,32 @@ a {
 a.current {
   padding: 7px;
   color: #BF4D00;
-  background-color: #f7f7fc;
+  background-color: #ededf2;
   text-shadow: #1f2628;
 }
 a:hover {
   padding: 7px;
   color: #BF4D00;
-  background-color: #f7f7fc;
+  background-color: #ededf2;
   text-shadow: #1f2628;
 }
 nav {
   position: sticky;
   position: -webkit-sticky;
   box-shadow: 0 2px 5px 0px;
-  background-color: #c8c8cc;
+  background-color: #BBBBBF;
   overflow: hidden;
   top: 0px;
   padding: 7px;
 }
 h1 {
-  color: #f7f7fc;
+  color: #ededf2;
 }
 body {
   background-color: #19191A;
 }
 .content {
-  background-color: #f7f7fc;
+  background-color: #ededf2;
   max-width: 1000px;
   width: 85%;
   padding: 0.5%;

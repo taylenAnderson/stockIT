@@ -9,20 +9,20 @@
 }
 .dropbutton {
   display: none;
-  background-color: #b4bdc7;
-  color: #17191a;
+  background-color: #c8c8cc;
+  color: #19191A;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
 }
 .dropbutton:hover {
-  color: #b4bdc7;
+  color: #c8c8cc;
 }
 header {
   position: relative;
   z-index: 5;
-  background-color: #2525a7;
+  background-color: #2525A7;
   box-shadow: 0 2px 5px 0px;
   text-align: left;
   padding: 8px;
@@ -32,38 +32,38 @@ li {
 }
 a {
   padding: 7px;
-  color: #17191a;
+  color: #19191A;
   text-decoration: none;
 }
 a.current {
   padding: 7px;
-  color: #cb7b1a;
-  background-color: #efece8;
+  color: #BF4D00;
+  background-color: #f7f7fc;
   text-shadow: #1f2628;
 }
 a:hover {
   padding: 7px;
-  color: #cb7b1a;
-  background-color: #efece8;
+  color: #BF4D00;
+  background-color: #f7f7fc;
   text-shadow: #1f2628;
 }
 nav {
   position: sticky;
   position: -webkit-sticky;
   box-shadow: 0 2px 5px 0px;
-  background-color: #b4bdc7;
+  background-color: #c8c8cc;
   overflow: hidden;
   top: 0px;
   padding: 7px;
 }
 h1 {
-  color: #efece8;
+  color: #f7f7fc;
 }
 body {
-  background-color: #17191a;
+  background-color: #19191A;
 }
 .content {
-  background-color: #efece8;
+  background-color: #f7f7fc;
   max-width: 1000px;
   width: 85%;
   padding: 0.5%;

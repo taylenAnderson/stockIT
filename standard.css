@@ -9,12 +9,15 @@
 }
 .dropbutton {
   display: none;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #b4bdc7;
+  color: #17191a;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+}
+.dropbutton:hover {
+  color: #b4bdc7;
 }
 header {
   position: relative;
@@ -57,7 +60,15 @@ h1 {
   color: #efece8;
 }
 body {
+  background-color: #17191a;
+}
+.content {
   background-color: #efece8;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 0 auto;
+  align: center;
 }
 @media screen and (max-width: 1100px) {
   li {
@@ -65,14 +76,22 @@ body {
     width: 100%;
     text-align: center;
   }
+  .dropbutton {
+    display: block;
+  }
   .desktop {
     display: none;
     min-width: 160px;
     z-index: 5;
     line-height: 220%;
-
+  }
+  .content {
+    width: 100%;
   }
   nav:hover ul {
     display: block;
+  }
+  nav:hover .dropbutton {
+    display: none;
   }
 }

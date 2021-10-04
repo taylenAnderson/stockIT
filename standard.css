@@ -62,8 +62,35 @@ h1 {
 body {
   background-color: #BBBBBF;
 }
-.content {
+.white {
   background-color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 0 auto;
+  align: center;
+}
+.orange {
+  background-color: #BF4D00;
+  color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 0 auto;
+  align: center;
+}
+.blue {
+  background-color: #2525A7;
+  color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 0 auto;
+  align: center;
+}
+.black {
+  background-color: #19191A;
+  color: #ededf2;
   max-width: 1000px;
   width: 85%;
   padding: 0.5%;

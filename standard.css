@@ -67,7 +67,7 @@ body {
   max-width: 1000px;
   width: 85%;
   padding: 0.5%;
-  margin: 0 auto;
+  margin: 10px auto;
   align: center;
 }
 .orange {
@@ -76,7 +76,7 @@ body {
   max-width: 1000px;
   width: 85%;
   padding: 0.5%;
-  margin: 0 auto;
+  margin: 10px auto;
   align: center;
 }
 .blue {
@@ -85,7 +85,7 @@ body {
   max-width: 1000px;
   width: 85%;
   padding: 0.5%;
-  margin: 0 auto;
+  margin: 10px auto;
   align: center;
 }
 .black {
@@ -94,7 +94,7 @@ body {
   max-width: 1000px;
   width: 85%;
   padding: 0.5%;
-  margin: 0 auto;
+  margin: 10px auto;
   align: center;
 }
 @media screen and (max-width: 1100px) {

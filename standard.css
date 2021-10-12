@@ -7,6 +7,20 @@
   display:block;
   list-style-type: none;
 }
+.t1 {
+  font-size: 14px;
+  background-color:rgb(25,25,26, 0.50);
+}
+.t2 {
+  font-size: 13px;
+  background-color:rgb(25,25,26, 0.35);
+}
+td {
+  font-size: 12px;
+}
+tr:nth-child(even) {
+  background-color:rgb(25,25,26, 0.25);
+}
 .dropbutton {
   display: none;
   background-color: #19191A;
@@ -29,6 +43,12 @@ header {
 }
 li {
   float: left;
+}
+li.table {
+  float: left;
+  overflow: hidden;
+  clear: both;
+  list-style-position: inside;
 }
 a.navBar {
   padding: 7px;

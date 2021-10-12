@@ -18,6 +18,11 @@
 td {
   font-size: 12px;
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
 tr:nth-child(even) {
   background-color:rgb(25,25,26, 0.25);
 }

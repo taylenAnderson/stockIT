@@ -15,6 +15,24 @@
   font-size: 13px;
   background-color:rgb(25,25,26, 0.35);
 }
+.Green {
+  color: #19191A;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #8ccf8c;
+}
+.Red {
+  color: #19191A;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #e78d78;
+}
+.Yellow {
+  color: #19191A;
+  font-weight: bold;
+  font-size: 13px;
+  background-color: #fad87a;
+}
 td {
   font-size: 12px;
 }
@@ -50,7 +68,7 @@ li {
   float: left;
 }
 li.table {
-  float: left;
+  float: none;
   overflow: hidden;
   clear: both;
   list-style-position: inside;

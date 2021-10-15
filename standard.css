@@ -117,12 +117,24 @@ nav {
   overflow: hidden;
   top: 0px;
   padding: 7px;
+  z-index: 2;
 }
 h1 {
   color: #ededf2;
 }
 body {
   background-color: #BBBBBF;
+}
+.video {
+  position:sticky;position:-webkit-sticky;
+  border-radius: 8px;
+  background-color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 0px auto;
+  box-shadow: 3px 3px 6px #000000;
+  align: center;
 }
 .white {
   border-radius: 8px;
@@ -173,6 +185,9 @@ body {
     float: none;
     width: 100%;
     text-align: center;
+  }
+  .video {
+    position:relative;
   }
   .dropbutton {
     display: block;

@@ -19,19 +19,19 @@
   color: #19191A;
   font-weight: bold;
   font-size: 13px;
-  background-color: #8ccf8c;
+  background-color:rgb(140,207,140,0.75);
 }
 .Red {
   color: #19191A;
   font-weight: bold;
   font-size: 13px;
-  background-color: #e78d78;
+  background-color:rgb(231,141,120,0.75);
 }
 .Yellow {
   color: #19191A;
   font-weight: bold;
   font-size: 13px;
-  background-color: #fad87a;
+  background-color:rgb(250,216,122,0.75);
 }
 td {
   font-size: 12px;
@@ -42,7 +42,7 @@ table, th, td {
   padding: 3px;
 }
 tr:nth-child(even) {
-  background-color:rgb(25,25,26, 0.25);
+  background-color:rgb(25,25,26, 0.35);
 }
 .dropbutton {
   display: none;

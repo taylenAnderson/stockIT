@@ -78,8 +78,22 @@ a.navBar {
   color: #ededf2;
   text-decoration: none;
 }
+a.subBar {
+  padding: 7px;
+  font-size: 12px;
+  color: #ededf2;
+  text-decoration: none;
+}
 a.current {
   padding: 7px;
+  color: #BF4D00;
+  background-color: #ededf2;
+  text-shadow: #ffffff;
+  text-decoration: none;
+}
+a.subCurrent {
+  padding: 7px;
+  font-size: 12px;
   color: #BF4D00;
   background-color: #ededf2;
   text-shadow: #ffffff;
@@ -90,6 +104,13 @@ a.body {
 }
 a.navBar:hover {
   padding: 7px;
+  color: #BF4D00;
+  background-color: #ededf2;
+  text-shadow: #ffffff;
+}
+a.subBar:hover {
+  padding: 7px;
+  font-size: 12px;
   color: #BF4D00;
   background-color: #ededf2;
   text-shadow: #ffffff;

@@ -32,97 +32,122 @@
       <li><a href="iTTechnologies.html" class="subBar">Machine Learning</a></li>
       <li><a href="NLP.html" class="subBar">Natural Language Processing</a></li>
       <li><a href="autonoumousVehicles.html" class="subBar">Autonoumous Vehicles</a></li>
-      <li><a href="blockchainCrypto.html" class="subCurrent">Blockchain and Cryptocurrencies</a></li>
+      <li><a href="blockchainCrypto.html" class="subCurrent">Cyber Security</a></li>
     </ul>
 
 
   </nav>
   <div class="black" style="text-align: center;margin-top:0px;">
-    <h2>Machine Learning</h2>
+    <h2>Cybersecurity</h2>
     <h4><i>"Teaching a Machine to Think like a Human"</i></h4>
   </div>
   <div class="blue">
     <h3>Introduction</h3>
   </div>
   <div class="white">
-    <p>Machine Learning is the way by which a machine can interpret, understand and make meaning from a large volume of data. It is often purported that they do this in a way that mimics human behaviour and methodology. “Machine learning is an umbrella term that refers to a broad range of algorithms that perform intelligent predictions based on a data set. These data sets are often large, perhaps consisting of millions of unique data points. Recent progress in machine learning has attained what appears to be a human level of semantic understanding and information extraction, and sometimes the ability to detect abstract patterns with greater accuracy than human experts” <a class="body"href="#bottom">(J, et al., 2019)</a>. Machine learning and artificial intelligence are symbiotic, in the sense that one cannot exist without at least some aspect of the other. Therefore, to gain a true understanding of Machine Learning, it is important for us to understand what Artificial Intelligence is.</p>
-    <br>
-    <p>As defined by Prof Dalvinder Singh Grewal, PhD; “artificial intelligence is the mechanical simulation system of collecting knowledge and information and processing intelligence of universe: (collating and interpreting) and disseminating it to the eligible in the form of actionable intelligence.” <a class="body"href="#bottom">(IOSR-JCE, 2021)</a> It is the way by which a machine collects, collates, and acts on information it receives from artificial sensors. What makes it different from natural intelligence is that the processing is done entirely through artificial means and sensors. Artificial intelligence allows information to be collected by a machine’s software and hardware, usually a type of sensor, to be used by the machine to learn. This differs from machine learning, where its intent is to maximise the self-cognition of a machine with little to no human intervention. Unlike other types of artificial intelligence, machine learning does not require intensive programming and it allows a machine to learn by itself. This allows a machine to learn by itself.</p>
+    <p>As businesses begin to adopt cloud computing, moving away from the traditional centralized computing model, the typical user base now has the ability to access enterprise systems and exchange corporate data from their personal devices without the requirements of a VPN or using corporate assigned devices. The ease of accessing these systems have also increased with the likes of mobile devices such as tablets and smart phones over a cellular network and will continue to increase as 5G is rolled out. This presents a problem as these BYOD devices won’t have a corporate assigned digital certificate which the Public Key Infrastructure requires in order to encrypt data transmissions and establish trusts between different networks. Sure, a cloud service (whether this is AWS or Azure) will have their own Certificate Authority (CA) and their own digital certificate to hand out but the end user accessing these systems will not have a digital certificate assigned by a company from whom they represent. As we move towards a decentralized computing model, a new method is needed to improve the security of these devices. First, we need to understand how the public key Infrastructure works. </p>
+
   </div>
   <div class="blue">
-    <h3>Machine Learning</h3>
+    <h3>Public Key Infrastructure</h3>
   </div>
   <div class="white">
-    <p>The concept of machine learning falls into three differing categories, <a class="body"href="#bottom">(IBM, 2021)</a> supervised, unsupervised and semi-supervised. In supervised learning, a machine is given a dataset and instructed to interpret it using a defined logical sequence. In unsupervised learning, the dataset is interpreted by the machine using a sequence of its own creation. It does not rely on human intervention to discover hidden patterns or data groupings. Semi-supervised learning uses a combination of both. It provides the machine with a smaller dataset and a defined logical sequence, which allows the machine to learn and adapt to create its own rationale to apply to future datasets. This can be useful when a machine creator only has access to limited number of datasets; by exposing the machine to many smaller sets it can be taught more with less overall exposure. An automated system capable of self-learning can predict the result of a situation, an event or task based on the relevant information available. Using this logic, a machine can in essence pre-empt future outcomes, based on historical datasets.</p>
+    <h4>What is the Public Key Infrastructure?</h4>
     <br>
-    <p>The understanding and development of machine learning has diversified greatly over the past couple of years. Recent discoveries have branched into new areas of study such as: automated machine learning, neural Networks and transfer learning, showcasing some of the most advanced machine learning technologies and applications.</p>
+    <p>The Public Key Infrastructure (PKI) has been around for years and binds multiple technologies together to create trust and secure data exchanges over the internet <a class="body" href="#bottom">(Brien Posey, September 15, 2005, TechRepublic)</a>. As the Internet is a public space allowing any computer to communicate with other computer networks, much like other internet service protocols (such as DNS) PKI is what allows different networks to communicate securely and provide evidence that the data is coming from the intended source. The technology behind PKI is based on distributing digital certificates to clients and between these digital exchanges are different levels of trust authorities. Digital Certificates are signed using a hash, contents encrypted via a private key (kept by the owner or CA) and a public key to decrypt the contents of the data and other metadata.</p>
     <br>
-    <p>Automated machine learning simplifies data selection, processing, and extraction. This method reduces the time and resources needed to achieve desired results. More notably, it enables people who do not possess the knowledge or skills in machine learning to apply this technology to their field of work.</p>
-    <br>
-    <p>Neural networks are designed to emulate structures similar to that of the brains of animals and humans. Organic brains have neurons (nerve cells) to process information that is received from the five major senses (sight, sound, taste etc.); whereas artificial neural networks are composed of nodes that compute information from non-biological sensors. Machine learning is based on a machines ability to learn from the data provided to it, but neural networks learn by classifying data after first processing it through their nodes, similar to the way in which a human brain operates.</p>
-    <br>
-    <p>Transfer learning is a method of machine learning that enables the data from a particular task to be carried to another related task. This method provides the opportunity for a machine to gain more knowledge and experience, thus making it more effective in future tasks. The machine will essentially learn from the repeated iterations of a given task.</p>
+    <p>The Certificate Authority (CA) is responsible for auditing, issuing and revoking digital certificates. Some corporations will host their own CA which a security technician will be responsible to maintain the companies’ public keys, the Certificate Revocation List (CRL) and Auditing. A Registered Authority (RA) who verifies digital certificate requests. In layman’s term, identification of data exchange on the internet is similar to how we use passports in the real world  <a class="body" href="#bottom">(Josh Fruhlinger, 29 May 2020 CSO Online)</a></p>
+
   </div>
   <div class="blue">
-    <h3>How Does A Machine Learn?</h3>
+    <h3>PKI in Use</h3>
   </div>
   <div class="white">
-    <p>Data and algorithms are the two main components of machine learning technology. The sophistication of an algorithm will determine the path a machine will follow whilst training itself. The quality of the data the machine has access to will drastically affect the content created by a self-learning system. Consequently, implementing more mathematical and geometrical applications like statistics, probability and charting will increase the intelligence of learning machines. Developments in the discipline of data science will allow machines to be fed information that is of a higher quality and greater quantity. Therefore, training and employing more data analysts will help develop machines that are capable of sorting information faster and with a greater degree of accuracy.</p>
+    <p>To understand how PKI is used, let’s briefly look at a digital certificate and the handling of them. This is a digital certificate from the RMIT University website:</p>
     <br>
-    <p>A machine can be programmed to learn based on the data it is fed. If you need a machine to learn to recognise a street scene and to navigate using modern roadways, then it must be fed the required information. In this instance, the field of study of Computer Vision is applied. Computer vision can be broken down into three separate categories: semantic segmentation, image classification and object detection. Semantic segmentation can be understood as giving a machine the information to</p>
+    <p><img width="33%" src="cryptoImage\rmitCert1.jpg" alt=""><img width="33%" src="cryptoImage\rmitCert2.jpg" alt=""><img width="33%" src="cryptoImage\rmitCert3.jpg" alt=""> </p>
+    <h6 align="center"><a class="body" href="#bottom">Digital Certificate from RMIT website, Images captured using Greenshot software from my computer.</a></h6>
     <br>
-    <p>“understand the structures and components of an image on a pixel level. Methods for semantic segmentation try to make predictions about the structures and objects in an image.” <a class="body"href="#bottom">(Marius, 2021)</a> </p>
+    <p>Here we can see the Issuer (CA) which is QuoVadis Global, the Validation dates, the Signature hash algorithm used (sha256), the certification path, certificate polices and other meta data under the details tab.</p>
     <br>
-    <p>An example of which can be seen below.</p>
+    <p align="center"><img width="50%" src="cryptoImage\PKI1.jpg" alt=""> </p>
+    <h6 align="center">Image has been taken from Wikipedia article <a class="body" href="#bottom">(Wikipedia, October 12, 2021)</a></h6>
     <br>
-    <p style="text-align:center;"><img src="Logos\PixelSeg.jpg" alt="Figure 1"></p>
+    <p>The above image Illustrates how certificates are handed out amongst the different governing bodies on the PKI. A user applies for a digital certificate with the Registered Authority (RA), The RA will confirm the user’s identity and pass over to the Certificate Authority (CA) to issue a digital certificate. The Validation Authority (VA) verifies the status on the digital certificate and updates it if necessary. Not mentioned in the graph is the Certificate Revocation Lists (CRL) which the CA manages. These are where all the revoked digital certificates are stored <a class="body" href="#bottom">(Dr. Herong Yang, 2021, PKI Tutorials – Herong’s Tutorial Examples)</a>. PKI can get quite complex when adding more trusted authority levels and these are generally used for reseller CAs such as VeriSign or GlobalSign.</p>
     <br>
-    <p>Figure 1 (Example cases of pixel wise segmentation performed by SegNet on real road scenarios, 2016) <a class="body"href="#bottom">(Arroyo, 2016)</a> </p>
-    <br>
-    <p>Unlike the example of semantic segmentation shown above, image classification focuses on the image holistically, rather than on its individual parts. It classifies the subject using the key component of an image. Tied directly to image classification is object detection. Object detection technology works to identify the “instances of objects of a certain class within an image.” <a class="body"href="#bottom">(Marius, 2021)</a>. In this sense, image classification might be used to feed data of a certain data type to an object detection machine learning algorithm to help it develop.</p>
-    <br>
-    <p style="background-color:rgb(250,216,122,0.75);">See also this document’s section on <a href="autonomousVehicles.html" class="body">Autonomous Vehicles</a> for more information relating to the machine learning behind a vehicles’ autonomous future.</p>
-    <br>
-    <p style="background-color:rgb(250,216,122,0.75);"><a href="NLP.html" class="body">Natural language processing (NLP)</a> is a field of machine learning that we explore in another section of this document, but is worth mentioning while we are exploring the idea of machine learning as a whole.</p>
-    <br>
-    <p>While natural language processing is a large field of study, “all of them (the different fields of study within NLP) try to deduct some meaning from our language and perform calculations based on our language and its components. Algorithms based on NLP can be found in various applications and industries. Just to name a few applications which you might encounter every day such as translators, social media monitoring, chatbots, spam filters, grammar check in Microsoft word or messengers and virtual assistants.” <a href="#bottom" class="body">(Marius, 2021)</a></p>
-    <br>
-    <p>Deep learning is a sub-type of machine learning technology and over the recent years it has received substantial interest from industry leaders and innovators. It mainly benefits from image and audio processing, artificial neural networks and both supervised and unsupervised learning styles. Traditional learning machines would require an expert to set their definitions, whereas machines with deep structured learning can differentiate objects from another by analysing their appearance and voice. Consequently, they tend to follow similar learning patterns to humans' when processing raw data.</p>
+    <p>Outside of communications to a Web Servers, there are other ways in which PKI can be involved, such as securing communication to a database server, encrypted email communications, used with window’s domain networks, securing Internet of things (IoT) devices, physical access cards for building access <a class="body" href="#bottom">(Josh Fruhlinger, 29 May 2020 CSO Online)</a>.</p>
   </div>
   <div class="blue">
-    <h3>Machine Learning In Our Daily Lives</h3>
+    <h3>Issues with PKI</h3>
   </div>
   <div class="white">
-    <p>Although at an early stage, deep learning technology is already used in digital vocabularies, translators, self-driving vehicles and video streaming platforms. Finance, electronic commerce, logistics and healthcare industries are widely benefitting from deep learning systems. When browsing shopping websites and viewing products, similar items displayed by the web browser use deep learning technology to find this information. Another example of this are the anti-fraud security systems of financial organisations that detect suspicious activities by analysing live transactions and comparing them with information with past transactions.</p>
+    <p>Public Key Infrastructure has helped keep networks secure for years but it doesn’t come without its flaws. In short, PKI uses many different components which increases the attack surface and can be prone to user error. CA’s can be hosted internally, depending on how the company manages their IT Infrastructure, which means an administrator (a human) maintains their private and public keys, management of the Certificate revocation list (CRL) and maintains the CA server itself <a class="body" href="#bottom">(Roger A. Grimes, 30 June 2015, CSO Australia)</a>. This becomes a concern when users begin to access their work on an unmanaged BYOD device, operating on their private network with no VPN Tunneling back to a corporate network. </p>
     <br>
-    <p>Machine learning will enhance an organisation’s data processing capabilities, thus increasing the productivity and profitability of a businesses. Marketing departments will have access to more specific information on the targeted demographics that would be interested in their products, providing them will more relevant statistics on markets and market behaviour. Production departments will have greater amounts of technical data available to them concerning the materials and techniques used to manufacture goods. Automated assembly lines will be assisted not only by human operators but learning machines that will enable power usage, material distribution and workflow optimisation. Logistics companies will have navigation systems augmented with learning machines, creating delivery routes with live traffic information, reducing delivery times and fuel consumption of their shipments. These examples showcase the value of machine learning in enabling us to efficiently and effectively utilise large datasets to achieve outcomes in a range of different industries.</p>
-    <br>
-    <p>The number of employment opportunities for people who are expects in the field of machine learning are sure to increase, as the technologies driving innovation develop and as it is use more by society.</p>
-    <br>
-    <p>On the other side, the need for people who provide these services manually will likely decrease as automated systems reach maturity. Organisations adopting deep learning or machine learning technology more broadly will constantly be challenged with developmental obstacles. Such challenges would include the cost of maintenance and experimentation in real-life scenarios and finding fit-for-purpose datasets. Over time new methods and techniques will rise that will enhance machine learning in every aspect, making it more affordable and feasible for individuals and organisations to use.</p>
+    <p>This is just an example of a company handling their own CA server internally but there has been known evidence of CA resellers mishandling their digital certificates. One example is with GlobalSign who manage to take down a portion of the internet, sites that went offline include Wikipedia, Dropbox, and Financial Times <a class="body" href="#bottom">(Bob Cromwell, 2021)</a>.</p>
+
   </div>
   <div class="blue">
-    <h3>Our Relationship To Machine Learning</h3>
+    <h3>Blockchain</h3>
   </div>
   <div class="white">
-    <p>Today, virtual assistants and chatterbots already present on certain websites are powered by machine learning and natural language processing. When we enter questions into chat-boxes they can understand what the inquiry is about by detecting and processing keywords – this is after being fed and learning from large datasets of natural language libraries and human to human text-based interactions.</p>
+    <p>What is Blockchain</p>
     <br>
-    <p>This service saves both businesses and their customers a significant amount of time, by reducing the need for human-to-human interactions or waiting in virtual (or phone line) queues.</p>
+    <p>Blockchain is decentralized, operating as a peer-to-peer (P2P) network. The core of the technology is performing transactions between multiple participating computers (nodes) that store the data in a distributed manner. Each computer participating in the blockchain will have its own copy which is updated whenever a new transaction is completed, this creates a new block of data (hence the name). The blocks within the blockchain will include the data, the Hash and the Hash of the previous block. Depending on the type of blockchain you can store any value, whether this is user data (document or file), money or even a digital certificate. The block also contains metadata which could contain the identity of the user or transaction logs <a class="body" href="#bottom">(Tania H, Jan 04, 2018, RubyGarage)</a>.</p>
     <br>
-    <p>At this early stage, machine learning and natural language processing are not able to fully comprehend or grasp linguistic meanings in certain situations, but as develop they will become much more efficient assistants. Goods purchased from online-stores will reach homes quicker than ever before through machine learned route optimisation. Customers will also be provided more accurate delivery timelines and will be able track an items route in real-time.</p>
+    <p>Blockchain gained popularity with its first widely used digital currency, Bitcoin. Blockchain made it possible for these cryptocurrencies to exist as the system itself acts as a public ledger that captures transaction history. Coupled with the hashing algorithm used, this system is impossible to crack. The beauty of blockchain is in its decentralized computing, the file (depending on the blockchain) will update every 10 minutes to all the nodes which offers a level or redundancy. The other benefit is only being able to write new data on a blockchain. Through the hash file algorithm that this technology offers, you cannot update or crack the previous saved blocks as this will change the hash and that piece of data becomes invalid <a class="body" href="#bottom">(Token Metrics, July 23, 2021, Intro to Blockchain and Cryptocurrencies | an Ultimate Guide)</a>. Below are graphs on how the hashing mechanism works within a blockchain.</p>
     <br>
-    <p>When protective programs that defend our IT devices from malicious software are augmented with deep learning machines, they will provide an even greater line of defence. They will be empowered to do this by reacting in real-time more efficiently, drawing on thousands of different dataset scenarios. Machine taught anti-virus programs will be able to better identify and defend from threats as ill-intended hackers attempt to infiltrate a person’s IT system. By being one step ahead of attackers these programs will operate in both a proactive and protective manner.</p>
+    <p>Hash intact:</p>
     <br>
-    <p>Artificial intelligence, machine and deep learning are inter-related technologies. As one advances, the others benefit from the developments in that field. Advancements in these areas will make our digital and personal lives faster, safer and more affordable, as well as creating new fields for innovation in other areas of Information Technology.</p>
+    <p><img src="cryptoImage\hash1.jpg" alt=""> </p>
+    <h6><a class="body" href="#bottom">Image used from Tania H, Jan 04, 2018, RubyGarage</a></h6>
+    <br>
+    <p>Hash changed – chain broken:</p>
+    <br>
+    <p><img src="cryptoImage\hash2.jpg" alt=""> </p>
+    <h6><a class="body" href="#bottom">Image used from Tania H, Jan 04, 2018, RubyGarage</a></h6>
+    <br>
+    <p>Another feature that blockchain contains is proof-of-work (PoW) which acts as a consensus. Proof-of-work is how a cryptocurrency mines and adds to the blockchain, this is achieved by solving mathematical problems which is how the new block is added to the blockchain. The nodes in a blockchain are referred to miners and the process for solving these mathematical problems called mining <a class="body" href="#bottom">(Bybit Learn, December 8, 2020, What is proof of work (PoW in Blockchain?))</a>.</p>
+    <br>
+    <p>As blockchain has developed through cryptocurrencies, it has become increasingly noticed for its potential for decentralized data storage. This will cater for the emerging IoT devices and data exchanges from BYOD devices to cloud systems <a class="body"href="#bottom">(Nexus, University of Michigan Engineering, October 20, 2020)</a>. Proof-of-work (PoW) offers a timestamp mechanism in which the nodes on the network solve computational puzzles to create the next block and push over the network and add to the blockchain (Bybit Learn, December 8, 2020, What is proof of work (PoW in Blockchain?). This mechanism will prevent denial of service attacks due to the scope of the peer-2-peer model that blockchain works on. The only downside to PoW is the sheer computing power that is required to mine the blocks and what is concerning is other countries are contending with mining crypto which is using the earth’s resources <a class="body" href="#bottom">(statista, 2021)</a>. Despite the usage of blockchain for cryptocurrencies, the technology itself will transform industries such as supply chains, retails, manufacturing, financial services and even security.</p>
+
+  </div>
+  <div class="blue">
+    <h3>What Blockchain-based PKI will fix</h3>
+  </div>
+  <div class="white">
+    <p>As Blockchain technology is used more outside of the cryptocurrency space, we will begin to see the Public Key Infrastructure running on blockchain. As of this point in time, the technology is still in development, but it will resolve several issues that we see with PKI. One of these issues would be the need for a Certificate Authority (CA), with Blockchain Integrity and Auditing built into the technology there is no longer a need for a 3rd party to oversee the handling of certificates and public keys. This is simply because of how Blockchain works, which is a distributed ledger which saves meta-data based on transaction history. However, in this context for PKI, it would be digital certificates and public keys <a class="body" href="#bottom">(Andrii Fedotov, January 24, 2019, Hackernoon)</a>.</p>
+    <br>
+    <p>This will also take the burden off IT administrators having to host an on-premises CA and eliminate user error with mishandling keys, server maintenance or malicious attacks to their CA servers. As the PKI model was built to support the older centralized model which companies are increasingly moving away from due to cloud computing, mobile devices, and BYOD devices. Blockchain is built for peer-2-peer communications which is distributed and supports the current trend for companies moving towards cloud systems. Because Blockchain is distributed, there is built-in redundancy as multiple nodes over the network are downloading the new blocks via Proof-of-work (PoW) <a class="body" href="#bottom">(Remme, Jan 27, 2020)</a>.</p>
+    <br>
+    <p>The only downside to blockchain is that there’s no governing control, this is due to the nature of the technology working as a peer-2-peer model, however there is great trust within the code that drives blockchain. As Satoshi Nakamoto writes: “The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they’ll generate the longest chain and outpace attackers.” <a class="body" href="#bottom">(Satoshi Nakamoto, October 31, 2001 Bitcoin: a Peer-to-Peer Electronic Cash System whitepaper)</a> As long as this is the case, blockchain-based PKI will be revolutionary within the cyber security space.</p>
+
+  </div>
+  <div class="blue">
+    <h3>My Thoughts</h3>
+  </div>
+  <div class="white">
+    <p>Currently for work, I use my personal computer when working from home and most of our users in our organization do the same, this creates a challenge for our organization to keep these devices secure. However, BYOD devices are becoming increasingly popular and sure, you can enrol the computer or mobile device into a Mobile Device Management (MDM) system, but users do not want their companies’ IT team to be able to monitor their activity on their personal computer. As it stands, there are not many measures preventing a user’s access to cloud systems. Users prefer to use devices that they’re more familiar with (i.e their personal computer), whether it is because of their preferred OS, higher specs, or configurations etc. At least with blockchain-based PKI, this would cover some of these implications. Aside from blockchain-based PKI, there are other security vulnerabilities but what is important to note here is that if you are representing a company then there needs to be evidence that the data came from the device that represents your company, this will increase integrity and confidence within organizations and the vendors that they conduct business with.</p>
+    <br>
+    <p>Another benefit of this technology is no longer needing to administrate an on-premises CA server. None of the IT technicians on my team are trained security professionals and have to depend on a managed service provider (MSP) to look after some of these systems. As technicians looking after a customer, there have been cases of half completed work, “band-aid” fixes or simple mistakes like powering the server back on after an update. Although they have the expertise and skills required to operate these specialized systems, they can lack the care and attention that an employer of the company network provides. So far, this hasn’t been the case for our CA server but if it did, the repercussions could be catastrophic for our company.</p>
+    <br>
+    <p>On a broader level, blockchain will increase secure data transmission over the internet and reduce the level of human errors from CAs. Although without CAs, there is a level of concern as to who monitors the identity. Unless you are part of that blockchain, it will be very difficult for an ethical hacker to prevent criminal activity to occur due to the security and lack of overarching authority.</p>
   </div>
   <div class="white">
     <h5>References</h5>
-    <h6>Arroyo, R., 2016. Research Gate. <a href="#https://www.researchgate.net/profile/Roberto-Arroyo-4/publication/304789242/figure/fig2/AS:380415174037504@1467709453041/Example-cases-of-pixel-wise-segmentation-performed-by-SegNet-on-real-road-scenarios.png">[Online]</a> [Accessed 12 October 2021].</h6>
-    <h6>IBM, 2021. Ibm.com. <a href="https://www.ibm.com/cloud/learn/machine-learning">[Online]</a> [Accessed 12 October 2021].</h6>
-    <h6>IBM, 2021. Ibm.com. <a href="https://www.ibm.com/au-en/cloud/learn/neural-networks">[Online]</a> [Accessed 12 October 2021].</h6>
-    <h6>IOSR-JCE, 2021. A Critical Conceptual Analysis of Definitions of Aritifical Intelligence as Applicable to Computer Engineering. IOSR Journal of Computer Engineering, 16(2), p. 13.</h6>
-    <h6>J, N., H, C. & M, B., 2019. Machine Learning: Applications of Artifical Intelligence to Imaging and Diagnosis. Biophysical Reviews, 11(1), pp. 111-118.</h6>
-    <h6>Marius, H., 2021. Toward Data Science. <a href="https://towardsdatascience.com/overview-state-of-the-art-machine-learning-algorithms-per-discipline-per-task-c1a16a66b8bb">[Online]</a> [Accessed 12 October 2021].</h6>
+    <h6>A beginner's guide to Public Key Infrastructure <a href="https://www.techrepublic.com/article/a-beginners-guide-to-public-key-infrastructure/">Brien Posey, September 15, 2005</a></h6>
+    <h6>What is PKI? And how it secures just about everything online <a href="https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html">Josh Fruhlinger, 29 May 2020</a></h6>
+    <h6>PKI Tutorials – Herong’s Tutorial Examples <a href="https://www.herongyang.com/PKI/Introduction-What-Is-PKI-Public-Key-Infrastructure.html">Dr. Herong Yang, 2021</a></h6>
+    <h6>Massive Failures of Internet PKI <a href="https://cromwell-intl.com/cybersecurity/pki-failures.html">Bob Cromwell, 2021</a></h6>
+    <h6>4 fatal problems with PKI <a href="https://www.csoonline.com/article/2942072/4-fatal-problems-with-pki.html">Roger A. Grimes, 30 June 2015</a></h6>
+    <h6>How the Blockchain Works <a href="https://rubygarage.org/blog/how-blockchain-works">Tania H, Jan 04, 2018</a></h6>
+    <h6>Intro to Blockchain and Cryptocurrencies | an Ultimate Guide <a href="https://blog.tokenmetrics.com/intro-to-blockchain-and-cryptocurrencies/">Token Metrics, July 23, 2021</a></h6>
+    <h6>What is proof of work (PoW in Blockchain?) <a href="https://learn.bybit.com/blockchain/what-is-proof-of-work-in-blockchain/">Bybit Learn, December 8, 2020</a></h6>
+    <h6>The Next Big Thing: The Top Five Emerging Blockchain Technologies <a href="https://digitalskills.engin.umich.edu/fintech/top-five-emerging-blockchain-technologies/">Nexus, University of Michigan Engineering, October 20, 2020</a> ()</h6>
+    <h6>Distributed PKI: Development and Use Cases <a href="https://hackernoon.com/distributed-pki-development-and-use-cases-a828287a2e67">Andrii Fedotov, January 24, 2019</a></h6>
+    <h6>How Blockchain addresses Public Key Infrastructure shortcomings <a href="https://remme.io/blog/how-blockchain-addresses-public-key-infrastructure-shortcomings">Remme, Jan 27, 2020</a></h6>
+    <h6>Bitcoin: a Peer-to-Peer Electronic Cash System whitepaper <a href="http://satoshinakamoto.me/bitcoin.pdf">Satoshi Nakamoto, October 31, 2001</a></h6>
+    <h6>Distribution of Bitcoin mining hashrate from September 2019 to April 2021, <a href="https://www.statista.com/statistics/1200477/bitcoin-mining-by-country/">Statista, October 11, 2021</a></h6>
+    <h6><a name="bottom" id="bottom"></a>Public key infrastructure, <a href="https://en.wikipedia.org/wiki/Public_key_infrastructure">Wikipedia, October 12, 2021</a></h6>
   </div>
 
 </body>

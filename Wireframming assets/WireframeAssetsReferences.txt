@@ -1,0 +1,19 @@
+Adroid cover screen
+ref# https://spark.adobe.com/sp/design/post/urn:aaid:sc:AP:6ee9e30e-b915-4eb5-b684-c86e84895fb8
+
+Android stock background colour
+ref# https://spark.adobe.com/sp/design/post/urn:aaid:sc:AP:c1ba2e43-3f1e-4628-8a86-0fb1645a28bc
+
+Android logo asset transparent backing
+ref# https://spark.adobe.com/sp/design/post/urn:aaid:sc:AP:c9d87b89-54b3-4522-9969-ad09a22aab50
+
+Icon gradient
+ref# https://mdigi.tools/gradient-generator/
+orange #f19100
+blue #6a9def
+
+gradient box graphic
+ref# https://www.canva.com/design/DAEt0P5e4lE/N8iSn9Y2s3f8G_XZuTwr6A/edit#
+
+Question mark graphic
+https://spark.adobe.com/sp/design/post/urn:aaid:sc:AP:fa081a9e-1432-4dba-9319-cd91b4636377?workflow=blank&fallbackThresh=default&trigger=CreateProjectMenu&sizeCategory=custom

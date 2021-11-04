@@ -1,0 +1,231 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans Cond",  sans-serif;
+}
+.desktop {
+  display:block;
+  list-style-type: none;
+}
+.t1 {
+  font-size: 14px;
+  background-color:rgb(25,25,26, 0.50);
+}
+.t2 {
+  font-size: 13px;
+  background-color:rgb(25,25,26, 0.35);
+}
+.Green {
+  color: #19191A;
+  font-weight: bold;
+  font-size: 13px;
+  background-color:rgb(140,207,140,0.75);
+}
+.Red {
+  color: #19191A;
+  font-weight: bold;
+  font-size: 13px;
+  background-color:rgb(231,141,120,0.75);
+}
+.Yellow {
+  color: #19191A;
+  font-weight: bold;
+  font-size: 13px;
+  background-color:rgb(250,216,122,0.75);
+}
+td {
+  font-size: 12px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+tr:nth-child(even) {
+  background-color:rgb(25,25,26, 0.35);
+}
+.dropbutton {
+  display: none;
+  background-color: #19191A;
+  color: #ededf2;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbutton:hover {
+  color: #BBBBBF;
+}
+header {
+  position: relative;
+  z-index: 5;
+  background-color: #2525A7;
+  box-shadow: 3px 3px 6px #000000;
+  text-align: left;
+  padding: 8px;
+}
+li {
+  float: left;
+}
+li.table {
+  float: none;
+  overflow: hidden;
+  clear: both;
+  list-style-position: inside;
+}
+a.navBar {
+  padding: 7px;
+  color: #ededf2;
+  text-decoration: none;
+}
+a.subBar {
+  padding: 7px;
+  font-size: 12px;
+  color: #ededf2;
+  text-decoration: none;
+}
+a.current {
+  padding: 7px;
+  color: #BF4D00;
+  background-color: #ededf2;
+  text-shadow: #ffffff;
+  text-decoration: none;
+}
+a.subCurrent {
+  padding: 7px;
+  font-size: 12px;
+  color: #BF4D00;
+  background-color: #ededf2;
+  text-shadow: #ffffff;
+  text-decoration: none;
+}
+a.body {
+  color: inherit;
+}
+a.navBar:hover {
+  padding: 7px;
+  color: #BF4D00;
+  background-color: #ededf2;
+  text-shadow: #ffffff;
+}
+a.subBar:hover {
+  padding: 7px;
+  font-size: 12px;
+  color: #BF4D00;
+  background-color: #ededf2;
+  text-shadow: #ffffff;
+}
+a.body:hover {
+  border-radius: 6px;
+  color: #2525A7;
+  background-color:rgba(237, 237, 242, 0.5);
+}
+img.profile{
+  float:right;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  padding: 1px;
+  margin: 5px;
+  background-color: #19191A;
+  box-shadow: 3px 3px 6px #000000;
+}
+nav {
+  position: sticky;
+  position: -webkit-sticky;
+  box-shadow: 3px 3px 6px #000000;
+  background-color: #19191A;
+  overflow: hidden;
+  top: 0px;
+  padding: 7px;
+  z-index: 2;
+}
+h1 {
+  color: #ededf2;
+}
+body {
+  background-color: #BBBBBF;
+}
+.video {
+  position:sticky;position:-webkit-sticky;
+  border-radius: 8px;
+  background-color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 0px auto;
+  box-shadow: 3px 3px 6px #000000;
+  align: center;
+}
+.white {
+  border-radius: 8px;
+  background-color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 10px auto;
+  box-shadow: 3px 3px 6px #000000;
+  align: center;
+}
+.orange {
+  border-radius: 8px;
+  background-color: #BF4D00;
+  color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 10px auto;
+  box-shadow: 3px 3px 6px #000000;
+  align: center;
+}
+.blue {
+  border-radius: 8px;
+  background-color: #2525A7;
+  color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 10px auto;
+  box-shadow: 3px 3px 6px #000000;
+  align: center;
+}
+.black {
+  border-radius: 8px;
+  background-color: #19191A;
+  color: #ededf2;
+  max-width: 1000px;
+  width: 85%;
+  padding: 0.5%;
+  margin: 10px auto;
+  box-shadow: 3px 3px 6px #000000;
+  align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  li {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .video {
+    position:relative;
+  }
+  .dropbutton {
+    display: block;
+  }
+  .desktop {
+    display: none;
+    min-width: 160px;
+    z-index: 5;
+    line-height: 220%;
+  }
+  .content {
+    width: 100%;
+  }
+  nav:hover ul {
+    display: block;
+  }
+  nav:hover .dropbutton {
+    display: none;
+  }
+}
